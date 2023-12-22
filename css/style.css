@@ -1,0 +1,73 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.add-button,
+.plus-button,
+.minus-button {
+    /* font-family: 'Comic Neue', cursive; */
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.plus-button {
+    background-color: greenyellow;
+}
+
+.minus-button {
+    background-color: rgb(255, 131, 131);
+}
+
+.add-button {
+    background-color: orange;
+    color: white;
+}
+
+button {
+    padding: 5px 55px;
+    font-size: 30px;
+}
+
+.name-product {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.count {
+    font-size: 25px;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: absolute;
+    right: 0;
+    margin: 0;
+    top: 0;
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.plus-button,
+.minus-button {
+    font-size: 30px;
+    padding: 5px 33px;
+}
+
+.hide {
+    display: none;
+}
+
+td {
+    border: 0px solid black;
+    padding-bottom: 50px;
+    position: relative;
+}
